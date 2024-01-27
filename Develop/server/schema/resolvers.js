@@ -1,5 +1,5 @@
-const { User, Book } = require('../server/models');
-const { signToken, AuthenticationError } = require('../server/utils/auth');
+const { User, Book } = require('../models');
+const { signToken, AuthenticationError } = require('../utils/auth');
 
 const resolvers = {
   Query: {
